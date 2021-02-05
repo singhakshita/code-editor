@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/xterm/css/xterm.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <div id="top-row" class="top">
+        <div class="btn-container">
+        <button class="btn new" id="New">New</button>
+        <button class="btn save" id="Save">Save</button>
+        </div>
+        <div id="tabs-row" class="tabs-container">
+        </div>
+    </div>
+
+    <div id="main-container" class="main">
+        <div id="file-explorer" class="file-explorer">File Explorer
+            <div id="tree">
+            </div>
+        </div>
+        <div id="content-container" class="content">
+            <div id="text-editor" class="textbox">  <div id="editor"></div></div>
+          
+            <div id="terminal" class="terminal"></div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "activity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.1.0",
+    "jquery": "^3.5.1",
+    "jstree": "^3.3.10",
+    "monaco-editor": "^0.20.0",
+    "node-pty": "^0.9.0",
+    "node.js": "0.0.1-security",
+    "xterm": "^4.8.1",
+    "xterm-addon-fit": "^0.4.0"
+  }
+}
